@@ -1,7 +1,7 @@
 # MNISTDDRGB_ObjectDetection
 
+# Project Name
 
-A brief description of your project goes here.
 
 ## Table of Contents
 - [Introduction](#introduction)
