@@ -1,7 +1,5 @@
 # MNISTDDRGB_ObjectDetection
 
-# Project Name
-
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,32 +7,42 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
-Provide a more detailed introduction to your project, explaining what it does and why it's useful.
+This project focuses on object detection using the MNIST Double Digits RGB dataset. The goal is to detect and classify two digits in RGB images and predict their bounding boxes. The project combines the power of DarkNet53 for object detection and UNet for Image Segmentation, achieving remarkable classification, IOU and Segmentation scores.
 
-## Features
-- List some of the key features of your project.
+## Dataset
+The dataset consists of:
+- 3 subsets: train, validation and test containing 55K, 5K and 10K samples respectively
+- Input: A numpy array of flattened 64x64x3 images, shape: (number of samples, 12288).
+    - Labels: A 2-dimensional vector that has two numbers in the range [0, 9] which are the two digits in the image.
+    - Segmentation Mask: A 64×64 image with pixel values in the range [0, 10], where 10 represents the background.
+- Output:
+  - Classes: A numpy array of classes in the corresponding image, shape: (number of samples, 2).
+  - Prediction Boxes: A numpy array of bounding boxes in the corresponding image, shape: (number of samples, 2, 4).
+  
+## Results
 
-## Installation
-- Provide step-by-step instructions on how to install your project, including any prerequisites.
+- Classification Accuracy: 98.050 %
+- Detection IOU: 92.538 %
+- Segmentation Accuracy: 99.669 %
+- Test time: 74.939 seconds
+- Test speed: 66.721 images / second
+- Classification Score: 100.000
+- IOU Score: 80.494
+- Segmentation Score: 100.000
+- Overall Score: 95.124
 
-## Usage
-- Explain how to use your project with examples if applicable.
+## MNISTDD-RGB Dataset Illustration
 
-## Contributing
-- Explain how others can contribute to your project, whether through bug reports, feature requests, or code contributions.
+Here is an example image from the MNISTDD-RGB dataset to give you an idea of what the dataset looks like:
 
-## License
-- Specify the license for your project.
+![MNISTDD-RGB Sample Image](datasets.png)
 
-## Acknowledgements
-- Give credit to any resources or contributors who helped with your project.
+## References
+-  UNet Model : https://github.com/milesial/Pytorch-UNet/tree/master
 
 ## Contact
-- Provide your contact information.
+- If you need weights file please mail me ; babariyayash9200@gmail.com
 
-## Additional Sections (Optional)
-- Depending on your project, you can add sections for screenshots, FAQs, etc.
 
