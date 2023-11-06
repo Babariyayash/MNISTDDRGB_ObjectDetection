@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [introduction](#introduction)
 - [Dataset](#Dataset)
 - [Results](#Results)
 - [Illustration](#MNISTDD-RGB Dataset Illustration)
