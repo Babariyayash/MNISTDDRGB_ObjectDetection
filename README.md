@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
 - [Dataset](#Dataset)
 - [Results](#Results)
-- [MNISTDD-RGB Dataset Illustration](#MNISTDD-RGB Dataset Illustration)
+- [Illustration](#MNISTDD-RGB Dataset Illustration)
 - [References](#References)
 - [Contact](#contact)
 
