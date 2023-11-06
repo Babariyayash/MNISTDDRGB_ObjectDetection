@@ -43,6 +43,6 @@ Here is an example image from the MNISTDD-RGB dataset to give you an idea of wha
 -  UNet Model : https://github.com/milesial/Pytorch-UNet/tree/master
 
 ## Contact
-- If you need weights file please mail me ; babariyayash9200@gmail.com
+- If you need weights file please mail me : babariyayash9200@gmail.com
 
 
