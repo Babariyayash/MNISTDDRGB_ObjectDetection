@@ -37,7 +37,7 @@ The dataset consists of:
 
 Here is an example image from the MNISTDD-RGB dataset to give you an idea of what the dataset looks like:
 
-![MNISTDD-RGB Sample Image](datasets.png)
+![MNISTDD-RGB Sample Image](dataset.png)
 
 ## References
 -  UNet Model : https://github.com/milesial/Pytorch-UNet/tree/master
