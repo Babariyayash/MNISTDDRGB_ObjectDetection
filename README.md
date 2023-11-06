@@ -2,10 +2,10 @@
 
 
 ## Table of Contents
-- [introduction](#introduction)
+- [Introduction](#introduction)
 - [Dataset](#Dataset)
 - [Results](#Results)
-- [Illustration](#MNISTDD-RGB Dataset Illustration)
+- [MNISTDD-RGB-Dataset-Illustration](#MNISTDD-RGB-Dataset-Illustration)
 - [References](#References)
 - [Contact](#contact)
 
@@ -34,7 +34,7 @@ The dataset consists of:
 - Segmentation Score: 100.000
 - Overall Score: 95.124
 
-## MNISTDD-RGB Dataset Illustration
+## MNISTDD-RGB-Dataset-Illustration
 
 Here is an example image from the MNISTDD-RGB dataset to give you an idea of what the dataset looks like:
 
