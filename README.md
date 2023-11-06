@@ -3,10 +3,11 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Dataset](#Dataset)
+- [Results](#Results)
+- [MNISTDDRGBDatasetIllustration](#MNISTDD-RGB Dataset Illustration)
+- [References](#References)
+- [Contact](#contact)
 
 ## Introduction
 This project focuses on object detection using the MNIST Double Digits RGB dataset. The goal is to detect and classify two digits in RGB images and predict their bounding boxes. The project combines the power of DarkNet53 for object detection and UNet for Image Segmentation, achieving remarkable classification, IOU and Segmentation scores.
