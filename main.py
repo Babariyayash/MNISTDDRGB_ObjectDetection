@@ -3,7 +3,7 @@ import timeit
 import numpy as np
 from skimage.draw import polygon
 
-from A4_submission import detect_and_segment
+from model import detect_and_segment
 
 
 def compute_classification_acc(pred, gt):
